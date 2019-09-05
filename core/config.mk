@@ -1188,7 +1188,7 @@ ifneq ($(LINEAGE_BUILD),)
 ifneq ($(WITHOUT_LINEAGE_SEPOLICY),true)
 ## We need to be sure the global selinux policies are included
 ## last, to avoid accidental resetting by device configs
-$(eval include device/lineage/sepolicy/common/sepolicy.mk)
+# TODO # $(eval include device/lineage/sepolicy/common/sepolicy.mk)
 endif
 endif
 
